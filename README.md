@@ -34,15 +34,19 @@ For this assignment I need to employ different techniques to train and evaluate 
 
 ![image](https://user-images.githubusercontent.com/105535250/200156952-8d1490ca-2a0d-478d-ac8a-9fae4da10d49.png)
 
-### Interpretation
-
 Naive Random Oversampling showed a low precision for high_risk while a very high precision for low_risk points. It also showed a higher recall value in high_risk than in low_risk. It also has a decent accuracy.
 
+### Smote Oversampling 
 
+SMOTE Oversampling showed very similar values to Naive Random. A low precision for high_risk while a very high precision for low_risk points. With the main difference being the recall is low in high risk then low risk. It has a little higher accuracy then Naive Oversampling.
 
+* Balance Accuracy score
 
+![image](https://user-images.githubusercontent.com/105535250/200157226-4cbccd65-b726-414a-8062-81cffd39f95c.png)
 
+* Classification Report
 
+![image](https://user-images.githubusercontent.com/105535250/200157278-473ff9ed-df80-445e-9a1a-ecca1003e1aa.png)
 
 
 
