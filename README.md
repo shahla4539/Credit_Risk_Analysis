@@ -11,6 +11,9 @@ For this assignment I need to employ different techniques to train and evaluate 
 ## Results:
 
 ### Resampling Models to Predict Credit Risk
+
+### Naive Random Oversamling
+
 * First we split the data into testing and training
 
 ![image](https://user-images.githubusercontent.com/105535250/200156709-0cf01e3a-9f67-4de2-9fe8-b7ec4f61f638.png)
@@ -30,6 +33,11 @@ For this assignment I need to employ different techniques to train and evaluate 
 * Generate a classication report using the imbalanced_classification_report from imbalanced-learn.
 
 ![image](https://user-images.githubusercontent.com/105535250/200156952-8d1490ca-2a0d-478d-ac8a-9fae4da10d49.png)
+
+### Interpretation
+
+Naive Random Oversampling showed a low precision for high_risk while a very high precision for low_risk points. It also showed a higher recall value in high_risk than in low_risk. It also has a decent accuracy.
+
 
 
 
